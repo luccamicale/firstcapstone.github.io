@@ -18,11 +18,6 @@ for (let i = 0; i < linkss.length; i += 1) {
     overlay.style.display = 'none';
   });
 }
-
-
-
-
-
 const Projects = [
   {
     CardsId: 'cards-1',
@@ -32,6 +27,6 @@ const Projects = [
     SubTitleSpeakers: '',
     Text: '',
 
-  }
+  },
 ];
 document.getElementById('title-speakers').textContent = Projects[0].TitleBig;
