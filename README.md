@@ -1,75 +1,36 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Home Decoration 2022
+- Website for the Home decoration 2022
 
-# Project Name
+## Built With:
+- HTML
+- CSS
+- JavaScript 
 
-> Description the project.
+## Live Demo
+Check [this link]() for the live demo of the page
 
+## Introduction video
+[Introduction video]() of the website.
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
+## Getting Started:
+To access and change the code on your computer:
 ### Setup
+- Clone this repository using git.
+## Usage
+To edit this project:
+- Open the repository you cloned with a code editor that you like.
+- Edit the code as you want.
+- Use [Microverse linters config to HTML + CSS + JS](https://github.com/microverseinc/linters-config/tree/master/html-css-js) 
 
-### Install
+## Authors:
+Alexandre Medina
+- Github: [@luccamcale](https://github.com/alexmedinasf)
+- Linkedin: [Lucca Micale](https://www.linkedin.com/in/alexmedinasf/)
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+Thanks to:<br>
+Microverse, for the structure to let me learn more.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+## :pencil: License
+This project is [MIT]() licensed.

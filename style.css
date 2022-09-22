@@ -29,7 +29,7 @@ body {
 }
 
 #login {
-    display: none;
+  display: none;
 }
 
 #twitter {
@@ -53,7 +53,7 @@ body {
 }
 
 #title {
- font-size: 75px;
+  font-size: 75px;
   margin-top: 35px;
   margin-left: 35px;
   color: rgb(245, 77, 48);
@@ -108,28 +108,28 @@ body {
 }
 
 #text-bedroom {
-    font-size: 14px;
-    width: 280px;
-    padding-left: 43px;
-    color: white;
+  font-size: 14px;
+  width: 280px;
+  padding-left: 43px;
+  color: white;
 }
 
 #text-kitchen {
-    font-size: 14px;
-    width: 280px;
-    padding-left: 77px;
-    color: white;
+  font-size: 14px;
+  width: 280px;
+  padding-left: 77px;
+  color: white;
 }
 
 #text-toilette {
-    font-size: 14px;
-    width: 280px;
-    padding-left: 81px;
-    color: white;
+  font-size: 14px;
+  width: 280px;
+  padding-left: 81px;
+  color: white;
 }
 
 .living-room:hover {
-  background:  #ee3d3d;
+  background: #ee3d3d;
   color: white;
   border: 1px solid #fdfeff;
 }
@@ -182,7 +182,7 @@ body {
   width: 180px;
   height: 180px;
 }
-  
+
 #content-members {
   display: flex;
   flex-direction: row;
@@ -213,12 +213,12 @@ body {
 #title-main-speakers1 {
   margin-left: 15px;
 }
-  
+
 #subtitle-main-speakers1 {
   margin-left: 15px;
   color: rgb(245, 77, 48);
 }
-  
+
 #text-speakers1 {
   margin-left: 15px;
 }
@@ -226,12 +226,12 @@ body {
 #title-main-speakers2 {
   margin-left: 15px;
 }
-  
+
 #subtitle-main-speakers2 {
   margin-left: 15px;
   color: rgb(245, 77, 48);
 }
-  
+
 #text-speakers2 {
   margin-left: 15px;
 }
@@ -239,12 +239,12 @@ body {
 #title-main-speakers3 {
   margin-left: 15px;
 }
-    
+
 #subtitle-main-speakers3 {
   margin-left: 15px;
   color: rgb(245, 77, 48);
 }
-    
+
 #text-speakers3 {
   margin-left: 15px;
 }
@@ -260,7 +260,6 @@ body {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-
 
 #partner-title {
   font-size: 30px;
@@ -283,20 +282,20 @@ body {
 }
 
 #classes-photos-partners-two {
+  margin: 20px;
   margin-top: 10px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   margin-left: 20px;
   margin-bottom: 50px;
-  margin: 20px;
 }
 
-.image-partners{
+.image-partners {
   margin-right: 45px;
   margin-bottom: 60px;
   width: 90px;
-  }
+}
 
 #footer {
   display: flex;
@@ -332,13 +331,13 @@ body {
   display: flex;
   display: none;
 }
-  
+
 #menu-main-main {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-  
+
 .menu-cancel {
   color: #fff;
   font-size: 29px;
@@ -347,7 +346,7 @@ body {
   text-decoration: none;
   padding-top: 50px;
 }
-  
+
 .cancel {
   display: flex;
   flex-direction: row;
@@ -357,7 +356,7 @@ body {
   padding: 30px;
   margin-top: 40px;
 }
-  
+
 #menu-can1 {
   position: absolute;
   height: 24px;
@@ -374,7 +373,7 @@ body {
   margin-top: 60px;
   list-style-type: none;
 }
-  
+
 #menu-can2 {
   position: absolute;
   height: 24px;
@@ -390,7 +389,7 @@ body {
   color: #fff;
   margin-top: 100px;
 }
-  
+
 #menu-can3 {
   position: absolute;
   height: 24px;
@@ -455,13 +454,33 @@ body {
   margin-bottom: 50px;
 }
 
+#button-more {
+  border: 2px solid;
+  border-radius: 1px;
+  color: #ee3d3d;
+  padding: 10px;
+  width: 80px;
+  margin-top: 90px;
+  margin-left: 150px;
+  text-decoration: none;
+}
+
+.button-more-main {
+  margin-top: 50px;
+}
+
+.line5 {
+  size: 3px rgb(245, 77, 48);
+  width: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .menu-bar {
     display: flex;
     background-color: white;
     flex-direction: row;
   }
-  
+
   #logo {
     width: 100px;
     height: 60px;
@@ -470,19 +489,19 @@ body {
   #mypage {
     display: flex;
   }
-  
+
   #english {
     display: flex;
   }
-  
+
   #login {
     display: flex;
   }
-  
+
   #twitter {
     display: flex;
   }
-  
+
   #facebook {
     display: flex;
   }
@@ -518,7 +537,7 @@ body {
   .menu-link {
     margin-left: 50px;
     text-decoration: none;
-    color: #000000;
+    color: #000;
   }
 
   .content-nav {
@@ -597,10 +616,11 @@ body {
   #classes-photos-partners {
     display: flex;
     flex-direction: row;
+    margin-left: 70px;
   }
 
-  .image-partners{
-    margin-right: 225px;
+  .image-partners {
+    margin-right: 195px;
     margin-bottom: 60px;
     width: 130px;
   }
@@ -613,14 +633,14 @@ body {
   #classes-photos-partners-two {
     display: flex;
     flex-direction: row;
-    margin-right: 30px;
+    margin-left: 110px;
     list-style-type: none;
   }
 
   #image-partners-one {
     margin-left: 200px;
   }
-  
+
   #photo-commons {
     width: 500px;
     height: 150px;
@@ -630,5 +650,15 @@ body {
   #text-commons {
     margin-top: 50px;
   }
+
+  #button-more {
+    display: none;
+  }
+
+  .line5 {
+    size: 3px rgb(245, 77, 48);
+    width: 50px;
+    margin-left: 645px;
+    margin-top: 30px;
+  }
 }
-  
