@@ -100,6 +100,10 @@ body {
   flex-direction: row;
 }
 
+.title-room {
+  margin-top: 10px;
+}
+
 #text-living {
   font-size: 11px;
   width: 220px;
