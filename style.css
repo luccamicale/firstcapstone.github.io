@@ -5,7 +5,7 @@ body {
 .sub-nav-bar {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 #list-sub-nav-bar {
@@ -53,7 +53,7 @@ body {
 }
 
 #title {
-  font-size: 75px;
+  font-size: 62px;
   margin-top: 35px;
   margin-left: 35px;
   color: rgb(245, 77, 48);
@@ -91,40 +91,41 @@ body {
 }
 
 .living-room {
-  width: 467px;
+  width: 358px;
   height: 70px;
   background-color: rgb(95, 106, 107);
   color: rgb(245, 77, 48);
-  font-size: 25px;
+  font-size: 24px;
   display: flex;
   flex-direction: row;
 }
 
 #text-living {
-  font-size: 14px;
-  width: 280px;
-  padding-left: 20px;
+  font-size: 13px;
+  width: 220px;
+  padding-left: 42px;
   color: white;
 }
 
 #text-bedroom {
-  font-size: 14px;
+  font-size: 13px;
   width: 280px;
-  padding-left: 43px;
+  padding-left: 58px;
   color: white;
+  margin-bottom: 10px;
 }
 
 #text-kitchen {
-  font-size: 14px;
+  font-size: 13px;
   width: 280px;
-  padding-left: 77px;
+  padding-left: 23px;
   color: white;
 }
 
 #text-toilette {
-  font-size: 14px;
+  font-size: 13px;
   width: 280px;
-  padding-left: 81px;
+  padding-left: 23px;
   color: white;
 }
 
@@ -146,9 +147,10 @@ body {
 }
 
 #title-speakers {
-  margin-top: 30px;
-  margin-left: 130px;
-  font-size: 28px;
+  margin-top: 90px;
+  margin-left: 60px;
+  font-size: 25px;
+  margin-bottom: 80px;
 }
 
 .photos-decoration {
@@ -156,11 +158,11 @@ body {
   flex-direction: row;
   list-style-type: none;
   margin: 12px;
-  padding: 15px;
+  padding: 10px;
 }
 
 .images-photo-decoration {
-  margin-left: 35px;
+  margin-left: 10px;
 }
 
 #image-project {
@@ -207,7 +209,8 @@ body {
 }
 
 #text-speakers {
-  margin-left: 15px;
+  margin-left: 5px;
+  margin-bottom: 55px;
 }
 
 #title-main-speakers1 {
@@ -220,7 +223,8 @@ body {
 }
 
 #text-speakers1 {
-  margin-left: 15px;
+  margin-left: 5px;
+  margin-bottom: 55px;
 }
 
 #title-main-speakers2 {
@@ -233,7 +237,8 @@ body {
 }
 
 #text-speakers2 {
-  margin-left: 15px;
+  margin-left: 5px;
+  margin-bottom: 55px;
 }
 
 #title-main-speakers3 {
@@ -246,7 +251,8 @@ body {
 }
 
 #text-speakers3 {
-  margin-left: 15px;
+  margin-left: 5px;
+  margin-bottom: 55px;
 }
 
 .line2 {
@@ -256,7 +262,7 @@ body {
 }
 
 #container-partners {
-  background-color: rgb(72, 77, 77);
+  background-color: rgb(86, 90, 90);
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -274,27 +280,17 @@ body {
 }
 
 #classes-photos-partners {
-  margin-top: 100px;
+  margin-top: 60px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin-left: 10px;
-}
-
-#classes-photos-partners-two {
-  margin: 20px;
-  margin-top: 10px;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin-left: 20px;
-  margin-bottom: 50px;
+  margin-left: 5px;
 }
 
 .image-partners {
   margin-right: 45px;
   margin-bottom: 60px;
-  width: 90px;
+  width: 40px;
 }
 
 #footer {
@@ -456,13 +452,14 @@ body {
 }
 
 #button-more {
-  border: 2px solid;
+  border: 0.5px solid;
   border-radius: 1px;
   color: #ee3d3d;
-  padding: 10px;
+  padding-left: 110px;
+  padding-right: 110px;
   width: 80px;
   margin-top: 90px;
-  margin-left: 150px;
+  margin-left: 10px;
   text-decoration: none;
 }
 

@@ -21,7 +21,7 @@ for (let i = 0; i < linkss.length; i += 1) {
 const Cards = [
   {
     CardsId: 'cards-1',
-    TitleBig: 'Members and Collaborators',
+    TitleBig: 'Features Speakers',
     Image: './images+/socio-director.jpg',
     Image1: './images+/Picture-top.png',
     TitleSpeakers: 'Julia Robert',

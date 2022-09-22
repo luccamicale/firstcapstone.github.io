@@ -23,7 +23,7 @@ To edit this project:
 - Use [Microverse linters config to HTML + CSS + JS](https://github.com/microverseinc/linters-config/tree/master/html-css-js) 
 
 ## Authors:
-Alexandre Medina
+Lucca Micale
 - Github: [@luccamcale](https://github.com/luccamicale)
 - Linkedin: [Lucca Micale](https://www.linkedin.com/in/lucca-micale-907908233/)
 
