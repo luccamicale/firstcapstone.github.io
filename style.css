@@ -352,9 +352,10 @@ body {
   flex-direction: row;
   align-items: flex-start;
   position: fixed;
-  margin-left: 20px;
+  margin-left: 11px;
   padding: 30px;
-  margin-top: 40px;
+  margin-top: -8px;
+  color: #fff;
 }
 
 #menu-can1 {
@@ -370,7 +371,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 60px;
+  margin-top: 20px;
   list-style-type: none;
 }
 
@@ -387,7 +388,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 #menu-can3 {
@@ -403,7 +404,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 140px;
+  margin-top: 200px;
 }
 
 #image-contact {
@@ -472,6 +473,10 @@ body {
 .line5 {
   size: 3px rgb(245, 77, 48);
   width: 50px;
+}
+
+#lii-active {
+  list-style-type: none;
 }
 
 @media screen and (min-width: 768px) {

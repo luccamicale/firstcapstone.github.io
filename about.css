@@ -143,7 +143,7 @@ body {
   position: fixed;
   margin-left: 20px;
   padding: 30px;
-  margin-top: 40px;
+  margin-top: -10px;
 }
 
 #menu-can1 {
@@ -159,7 +159,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 60px;
+  margin-top: -10px;
 }
 
 #menu-can2 {
@@ -175,7 +175,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 #menu-can3 {
@@ -191,7 +191,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 140px;
+  margin-top: 180px;
 }
 
 #image-contact {
@@ -306,6 +306,10 @@ body {
   width: 180px;
   height: 70px;
   margin-top: 50px;
+}
+
+#lii-active {
+  list-style-type: none;
 }
 
 @media screen and (min-width: 768px) {

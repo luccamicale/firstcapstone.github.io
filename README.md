@@ -7,10 +7,10 @@
 - JavaScript 
 
 ## Live Demo
-Check [this link]() for the live demo of the page
+Check [this link](https://luccamicale.github.io/firstcapstone.github.io/index.html#) for the live demo of the page
 
 ## Introduction video
-[Introduction video]() of the website.
+[Introduction video](https://www.loom.com/share/de526c4b2ee5413e98d3dacd1d89e737) of the website.
 
 ## Getting Started:
 To access and change the code on your computer:
@@ -24,8 +24,8 @@ To edit this project:
 
 ## Authors:
 Alexandre Medina
-- Github: [@luccamcale](https://github.com/alexmedinasf)
-- Linkedin: [Lucca Micale](https://www.linkedin.com/in/alexmedinasf/)
+- Github: [@luccamcale](https://github.com/luccamicale)
+- Linkedin: [Lucca Micale](https://www.linkedin.com/in/lucca-micale-907908233/)
 
 
 ## Acknowledgments
