@@ -91,7 +91,7 @@ body {
 }
 
 .living-room {
-  width: 358px;
+  width: 388px;
   height: 70px;
   background-color: rgb(95, 106, 107);
   color: rgb(245, 77, 48);
@@ -159,6 +159,7 @@ body {
   list-style-type: none;
   margin: 12px;
   padding: 10px;
+  margin-top: 45px;
 }
 
 .images-photo-decoration {
@@ -453,18 +454,33 @@ body {
 
 #button-more {
   border: 0.5px solid;
+  border-color: #ee3d3d;
   border-radius: 1px;
   color: #ee3d3d;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 80px;
   margin-top: 90px;
-  margin-left: 10px;
+  margin-left: 30px;
   text-decoration: none;
 }
 
 .button-more-main {
   margin-top: 50px;
+}
+
+#button-orange {
+  background-color: #ee3d3d;
+  border: 0.5px solid;
+  border-radius: 1px;
+  color: #fff;
+  margin-top: 70px;
+  margin-left: 100px;
+  text-decoration: none;
+  padding: 18px;
+  margin-bottom: 20px;
 }
 
 .line5 {
@@ -474,6 +490,10 @@ body {
 
 #lii-active {
   list-style-type: none;
+}
+
+#text-speakers-replit {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -597,7 +617,7 @@ body {
   }
 
   .images-photo-decoration {
-    margin-right: 40px;
+    margin-right: 90px;
     padding-left: 140px;
   }
 
@@ -618,11 +638,11 @@ body {
   #classes-photos-partners {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
+    margin-left: 40px;
   }
 
   .image-partners {
-    margin-right: 195px;
+    margin-right: 165px;
     margin-bottom: 60px;
     width: 130px;
   }
@@ -663,4 +683,9 @@ body {
     margin-left: 645px;
     margin-top: 30px;
   }
+
+  .button-more-main {
+    margin-left: 450px;
+  }
+
 }
