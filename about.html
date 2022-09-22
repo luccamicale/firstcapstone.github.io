@@ -12,28 +12,30 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
+    <section id="main-nav-menu">
         <div class="sub-nav-bar">
             <ul id="list-sub-nav-bar">
-                <li id="facebook"><img src="images+/facebook.png" alt=""></li>
-                <li id="twitter"><img src="images+/gorjeo.png" alt=""></li>
-                <li id="login"><a href="#"></a>Login</li>
-                <li id="mypage"><a href="#"></a>MyPage</li>
-                <li id="english"><a href="#"></a>English</li>
+                <li id="facebook"><img class="nav-inside" src="images+/facebook.png" alt=""></li>
+                <li id="twitter"><img class="nav-inside" src="images+/gorjeo.png" alt=""></li>
+                <li id="login"><a class="nav-inside" href="#"></a>Login</li>
+                <li id="mypage"><a class="nav-inside" href="#"></a>MyPage</li>
+                <li id="english"><a class="nav-inside" href="#"></a>English</li>
                 <li id="menu"><a class="menuu" href="#"><img src="images+/Icon-Menu.jpg" alt="main-menu"></a></li>
-                <li id="home"><p>Home Decoration</p></li>
+                <a href="index.html" ><img id="logo" src="./images+/logo.jpg" alt="Logo"></a>
             </ul>
         </div>
         <header class="menu-bar">
-            <nav>
+            <nav class="content-nav">
               <div>
-                <a href="index.html" id="logo"><img src="./images+/logo.jpg" alt="Logo"></a>
+                <a href="index.html" ><img id="logoo" src="./images+/logo.jpg" alt="Logo"></a>
               </div>
-              <ul id="menu-links">
-                <li class="menu-link"><a href="index.html">Home</a></li>
-                <li class="menu-link"><a href="#">About</a></li>
-                <li class="menu-link"><a href="#">Contact</a></li>
-              </ul>
+             <div>
+                <ul id="menu-links">
+                    <li><a class="menu-link" href="index.html">Home</a></li>
+                    <li><a class="menu-link" href="about.html">About</a></li>
+                    <li><a class="menu-link" id="contact" href="#">Contact</a></li>
+                </ul>
+             </div>
             </nav>
           </header>
         
@@ -54,9 +56,14 @@
                 
                 Now, we are developing a community with over a hundred players from all over the globe that help us with ideas and items needed to make the most creative decorations ever seen! <br>
 
-                If you havea any further questions about our project, don't hesitate and contact us</P>
+                If you havea any further questions about our project, don't hesitate and contact us. <br>
+
+                What we propose with the decoration is to be able to go beyond the basic and common designs that have been used in recent decades.
+            </P>
         </div>
-        
+        <br>
+    </section>
+    <section id="main-events">
         <div id="past-events">
             <div class="wrapper">
                 <h3 id="title-see">See others Decoration</h3>
@@ -91,8 +98,9 @@
     <footer id="footer">
         <div>
             <img id="photo-commons" src="images+/cc-logo-dark.png" alt="">
+            <img id="photo-commons-white" src="images+/cc-logo-white.png" alt="">
         </div>
-        <div>
+        <div id="text-together">
             <p id="first-text-footer">2022 Creative Commons. Some Rights Reserved</p>
             <p id="text-footer">This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License</p>
         </div>
@@ -107,7 +115,7 @@
         </div>
         <ul class="menu-main">
             <li><a class="menu-cancel" id="menu-can1" href="index.html">Home <img id="image-home" src="images+/casa.png" alt=""></a></li>
-            <li><a class="menu-cancel" id="menu-can2" href="about.html">about</a></li>
+            <li><a class="menu-cancel" id="menu-can2" href="about.html">About</a></li>
             <li><a class="menu-cancel" id="menu-can3" href="#">Contact <img id="image-contact" src="images+/letra.png" alt=""></a></li>
         </ul>
     </div>

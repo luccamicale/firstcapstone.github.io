@@ -63,12 +63,14 @@ body {
   font-size: 15px;
   margin-top: 35px;
   margin-left: 35px;
-  color: rgb(245, 77, 48);
+  color: rgb(255, 255, 255);
 }
 
 #main-section {
-  background-color: lightgoldenrodyellow;
+  background-image: url("images+/fondopantlla2");
   margin-bottom: 50px;
+  opacity: 0.7;
+  z-index: -1;
 }
 
 .menu-bar {
@@ -78,7 +80,7 @@ body {
 #container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(72, 77, 77);
+  background-image: url("images+/fondopantalla1.jpg");
 }
 
 #different-parts {
@@ -162,13 +164,37 @@ body {
 }
 
 #image-project {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 
+#image-project1 {
+  width: 180px;
+  height: 180px;
+}
+
+#image-project2 {
+  width: 180px;
+  height: 180px;
+}
+
+#image-project3 {
+  width: 180px;
+  height: 180px;
+}
+  
 #content-members {
   display: flex;
   flex-direction: row;
+}
+
+.membersDavid {
+  display: flex;
+  flex-direction: row;
+}
+
+.members {
+  margin-top: 15px;
 }
 
 #title-main-speakers {
@@ -184,6 +210,45 @@ body {
   margin-left: 15px;
 }
 
+#title-main-speakers1 {
+  margin-left: 15px;
+}
+  
+#subtitle-main-speakers1 {
+  margin-left: 15px;
+  color: rgb(245, 77, 48);
+}
+  
+#text-speakers1 {
+  margin-left: 15px;
+}
+
+#title-main-speakers2 {
+  margin-left: 15px;
+}
+  
+#subtitle-main-speakers2 {
+  margin-left: 15px;
+  color: rgb(245, 77, 48);
+}
+  
+#text-speakers2 {
+  margin-left: 15px;
+}
+
+#title-main-speakers3 {
+  margin-left: 15px;
+}
+    
+#subtitle-main-speakers3 {
+  margin-left: 15px;
+  color: rgb(245, 77, 48);
+}
+    
+#text-speakers3 {
+  margin-left: 15px;
+}
+
 .line2 {
   size: 3px rgb(245, 77, 48);
   width: 50px;
@@ -192,7 +257,10 @@ body {
 
 #container-partners {
   background-color: rgb(72, 77, 77);
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
+
 
 #partner-title {
   font-size: 30px;
@@ -207,17 +275,33 @@ body {
 }
 
 #classes-photos-partners {
-  margin-top: 80px;
+  margin-top: 100px;
   list-style-type: none;
   display: flex;
-  flex-direction: column;
-  margin-left: 130px;
+  flex-direction: row;
+  margin-left: 10px;
 }
+
+#classes-photos-partners-two {
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin: 20px;
+}
+
+.image-partners{
+  margin-right: 45px;
+  margin-bottom: 60px;
+  width: 90px;
+  }
 
 #footer {
   display: flex;
   flex-direction: row;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(253, 253, 250);
 }
 
 #photo-commons {
@@ -331,6 +415,44 @@ body {
 #image-home {
   width: 30px;
   margin-left: 10px;
+}
+
+#image-project0 {
+  position: absolute;
+  margin-left: -195px;
+  z-index: -1;
+  margin-top: -18px;
+  width: 60px;
+}
+
+#image-project11 {
+  position: absolute;
+  margin-left: -195px;
+  z-index: -1;
+  margin-top: -18px;
+  width: 60px;
+}
+
+#image-project22 {
+  position: absolute;
+  margin-left: -195px;
+  z-index: -1;
+  margin-top: -18px;
+  width: 60px;
+}
+
+#image-project33 {
+  position: absolute;
+  margin-left: -195px;
+  z-index: -1;
+  margin-top: -18px;
+  width: 60px;
+}
+
+#speakers {
+  margin-left: 45px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -458,8 +580,55 @@ body {
     padding-left: 140px;
   }
 
+  #title-speakers {
+    margin-left: 500px;
+  }
 
+  #speakers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+  }
 
+  #content-members {
+    margin: 15px;
+  }
 
+  #classes-photos-partners {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-partners{
+    margin-right: 225px;
+    margin-bottom: 60px;
+    width: 130px;
+  }
+
+  .container-ul-partners {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #classes-photos-partners-two {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    list-style-type: none;
+  }
+
+  #image-partners-one {
+    margin-left: 200px;
+  }
+  
+  #photo-commons {
+    width: 500px;
+    height: 150px;
+    margin-left: 60px;
+  }
+
+  #text-commons {
+    margin-top: 50px;
+  }
 }
   
