@@ -60,7 +60,6 @@ document.getElementById('title-main-speakers').textContent = Cards[0].TitleSpeak
 document.getElementById('subtitle-main-speakers').textContent = Cards[0].SubTitleSpeakers;
 document.getElementById('text-speakers').textContent = Cards[0].Text;
 
-
 document.getElementById('image-project1').src = Cards[1].Image;
 document.getElementById('image-project11').src = Cards[0].Image1;
 document.getElementById('title-main-speakers1').textContent = Cards[1].TitleSpeakers;

@@ -53,7 +53,7 @@ body {
 }
 
 #title {
-  font-size: 75px;
+  font-size: 60px;
   margin-top: 35px;
   margin-left: 35px;
   color: rgb(245, 77, 48);
@@ -94,8 +94,8 @@ body {
 }
 
 #text-covid {
-  font-size: 17px;
-  width: 450px;
+  font-size: 16px;
+  width: 360px;
   line-height: 40px;
   color: rgb(82, 89, 95);
   text-align: center;
@@ -303,8 +303,8 @@ body {
 }
 
 #photo-commons-white {
-  width: 180px;
-  height: 70px;
+  width: 150px;
+  height: 60px;
   margin-top: 50px;
 }
 
@@ -359,6 +359,8 @@ body {
 
   .nav-inside {
     margin-right: 13px;
+    text-decoration: none;
+    color: #fff;
   }
 
   #menu-links {
