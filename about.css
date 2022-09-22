@@ -251,7 +251,7 @@ body {
   background-color: rgba(236, 82, 66, 0.8);
   color: var(--color-white);
   inset: 0 0;
-  width: 98%;
+  width: 86%;
   transform: scaleY(1);
   font-size: 1.5rem;
   display: flex;
@@ -265,8 +265,8 @@ body {
 }
 
 .image-events {
-  width: 400px;
-  height: 380px;
+  width: 350px;
+  height: 320px;
 }
 
 #footer {
