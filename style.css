@@ -501,6 +501,10 @@ body {
   display: none;
 }
 
+#container-general {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .menu-bar {
     display: flex;
@@ -694,5 +698,9 @@ body {
 
   .button-more-main {
     margin-left: 450px;
+  }
+
+  #container-general {
+    display: flex;
   }
 }
